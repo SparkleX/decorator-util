@@ -1,0 +1,19 @@
+{
+	"preset": "ts-jest",
+	"testEnvironment": "node",
+	"roots": ["src"],
+	"collectCoverageFrom": ["**/*.ts"],
+	"coveragePathIgnorePatterns": [
+	],
+	"coverageDirectory": "coverage",
+	"coverageReporters": ["lcov"],
+	"coverageThreshold": {
+		"global": {
+			"statements": 75,
+			"branches": 57,
+			"functions": 61,
+			"lines": 75
+		}
+	},
+	"clearMocks": true
+}
