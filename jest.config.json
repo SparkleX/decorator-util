@@ -9,10 +9,10 @@
 	"coverageReporters": ["lcov"],
 	"coverageThreshold": {
 		"global": {
-			"statements": 75,
-			"branches": 57,
-			"functions": 61,
-			"lines": 75
+			"statements": 100,
+			"branches": 100,
+			"functions": 100,
+			"lines": 100
 		}
 	},
 	"clearMocks": true

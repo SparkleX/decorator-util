@@ -1,4 +1,4 @@
-import { DecoratorUtil, CallbackParam } from "../DecoratorUtil";
+import { DecoratorUtil, CallbackParam } from "..";
 
 /*async function callback(x: CallbackParam, params: any[]): Promise<any> {
 	console.debug(x);
